@@ -8,12 +8,3 @@ config :agile_pulse, AgilePulseWeb.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
-
-# Configure your database
-config :agile_pulse, AgilePulse.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "agile_pulse_test",
-  hostname: "localhost",
-  pool: Ecto.Adapters.SQL.Sandbox
