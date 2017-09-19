@@ -1,8 +1,8 @@
 language: elixir
 elixir:
-  - 1.5.1
+- 1.5.1
 otp_release:
-  - 19.0
+- 19.0
 sudo: false
 addons:
   postgresql: '9.4'
@@ -16,7 +16,7 @@ before_script:
 deploy:
   provider: heroku
   api_key:
-    secure:
+    secure: V1K9vLAqdqMPp/x89u5TR0uswvyh8duOaEWVJOiO4mAr49UxO1ZuPgAHQFFH/iP9oYXphouTyEi9N5QnisiGLOVSrBnTGPG54A6xQXH+JZEdtuE0M8S48zAEigbwZu4IE9/fL+hR+Nnig29NEHiXESxJDGZn5f7Vxmd3D3NlLq2DEjHscij/3W6LOF1sORu++jVVPqwaZfcf5YInjdpSwZFlu+m2ZJLJGMy/SPMj5JxzxGMJghNxv/a3J0WyNYMRLzoNjRxb0q0BMCv4BVcfLGP3QbJjU6e/oHRL5bBoGfVg00tkEcr3tDdfZuO9yqpv9OecXLV+bM7ojLNynKNn+4eTI03yOeJmoIpyhS6uk9I8sdCiZy2w2BN9wFjJYi2NN5hyXEmAaofDymV5zih6WX9BUP87xNOD5aQqYai6BkL1sGU0v5KvfQxEM13gqs5/8KVErLk3gO0vkGylG82STz4kl1UhlizFvRCUPDne8Xwcds+D3/enTuRYwJ/ACaWgsTGNf4nHFpMKXD+AiL0dfiIFJ4DJT6Ao0GNCuQpXHTgrjMODTtAEn6WfOdiSWwKY+iuwYrbXGaIDnBYYJ4p7n6n2C93tz2Vjr56/HEb/p7WtmglPPt9XpgBsC4x0JQrNREgiaNzi7GwSx/fx5vHezomj69GmbHEndbyyZzkr2Tk=
   app: agilepulse
   on:
     repo: cscairns/agile_pulse
