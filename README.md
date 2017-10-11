@@ -12,7 +12,7 @@ Setup
    want to check-out the app, and then clone it (`git clone
    https://github.com/cscairns/agile_pulse`).
 3. Install the Postgres.app by following [these installation instructions](https://postgresapp.com/). (The easy way to set up PostgreSQL.)
-4. Install Elixir (`brew install elixir -v1.5.1`), followed by the Hex package manager (`mix local.hex`).
+4. Install Elixir (`brew install elixir -v1.4`), followed by the Hex package manager (`mix local.hex`).
 5. Install the Phoenix dependencies with `mix deps.get`.
 6. Set up your development repo config by running `cp config/dev.secret.example.exs config/dev.secret.exs` and your test repo config by running `cp config/test.secret.example.exs config/test.secret.exs`. The default configs that are copied should work just fine.
 7. Create and migrate your database with `mix ecto.create && mix ecto.migrate`.
